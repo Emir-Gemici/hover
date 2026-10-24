@@ -1,0 +1,24 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Credentials, vehicle-specific configuration and flight recordings
+.env
+.env.*
+!.env.example
+*.param
+*.tlog
+*.bin
+*.ulg
+*.log
